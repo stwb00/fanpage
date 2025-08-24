@@ -1,0 +1,70 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: #222;
+  color: #f0f0f0;
+  font-family: 'Inter', Arial, sans-serif;
+  text-align: center;
+}
+
+main {
+  flex: 1;
+  padding: 20px;
+}
+
+.navbar {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background-color: #333;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar li a {
+  display: block;
+  padding: 12px 20px;
+  color: white;
+  text-decoration: none;
+}
+
+.navbar li a:hover {
+  background-color: #d4af37;
+  color: black;
+}
+
+.titulo {
+  font-family: 'Cinzel', serif;
+  color: #d4af37;
+  margin: 20px 0;
+}
+
+form {
+  margin-top: 20px;
+}
+
+input, textarea {
+  margin-top: 5px;
+  width: 250px;
+}
+
+button {
+  margin-top: 10px;
+}
+
+footer {
+  background-color: #333;
+  color: #ccc;
+  text-align: center;
+  padding: 10px;
+  margin-top: auto;
+}
+
+footer a {
+  color: #d4af37;
+}

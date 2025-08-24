@@ -1,72 +1,81 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mistborn fan page</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Inter:wght@400;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/personajes.css" />
+    <title>Mistborn - Personajes</title>
 </head>
 
 <body>
     <header>
         <nav>
-            <ul>
+            <ul class="navbar">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="libros.html">Libros</a></li>
                 <li><a href="personajes.html">Personajes</a></li>
                 <li><a href="metales.html">Metales</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
             </ul>
         </nav>
-        <h1>Personajes principales de Mistborn</h1>
     </header>
+
     <main>
+        <h1 class="titulo">Personajes principales</h1>
         <p>
-            La saga Mistborn está poblada por personajes inolvidables, cada uno con su propia historia, motivaciones y secretos.  
-            Aquí presentamos a los más destacados de la <strong>Era 1</strong>.
+            A lo largo de la saga Mistborn, varios personajes destacan por su rol en la historia.
+            Aquí encontrarás algunos de los más importantes.
         </p>
-        <div>
-            <h3>Vin</h3>
-            <p>
-                Una joven huérfana que sobrevive en las calles hasta descubrir que es una <em>nacida de la bruma</em>, capaz de usar todos los metales alománticos.  
-                Su viaje la llevará de la desconfianza absoluta a convertirse en una de las figuras más importantes del Imperio Final.
-            </p>
-        </div>
-        <div>
-            <h3>Kelsier</h3>
-            <p>
-                Conocido como el <strong>Superviviente de Hathsin</strong>, es un carismático y temerario nacido de la bruma que lidera una rebelión contra el Lord Legislador.  
-                Su audacia y su fe en la gente inspiran a todos a su alrededor.
-            </p>
-        </div>
-        <div>
-            <h3>Sazed</h3>
-            <p>
-                Un <em>feruquimista</em> erudito y pacífico que sirve como mentor y consejero.  
-                Su conocimiento sobre religiones, historia y cultura es fundamental para los protagonistas.
-            </p>
-        </div>
-        <div>
-            <h3>Lord Legislador</h3>
-            <p>
-                El gobernante inmortal que ha mantenido el control absoluto del Imperio durante mil años.  
-                Temido como un dios por la población, su poder es tan misterioso como peligroso.
-            </p>
-        </div>
-        <div>
-            <h3>Elend Venture</h3>
-            <p>
-                Joven noble idealista que desafía las costumbres de su clase.  
-                Su encuentro con Vin cambiará no solo su vida, sino el rumbo de todo el Imperio.
-            </p>
+
+        <div class="personajes-container">
+            <div class="personaje">
+                <img src="img/vin.jpg" alt="Vin">
+                <h3 class="subtitulo">Vin</h3>
+                <p>Una joven huérfana que sobrevive en las calles hasta descubrir que es una nacida de la bruma, capaz
+                    de usar todos los metales alománticos. Su viaje la llevará de la desconfianza absoluta a convertirse
+                    en una de las figuras más importantes del Imperio Final.</p>
+            </div>
+
+            <div class="personaje">
+                <img src="img/kelsier.jpg" alt="Kelsier">
+                <h3 class="subtitulo">Kelsier</h3>
+                <p>Conocido como el Superviviente de Hathsin, es un carismático y temerario nacido de la bruma que
+                    lidera una rebelión contra el Lord Legislador. Su audacia y su fe en la gente inspiran a todos a su
+                    alrededor.</p>
+            </div>
+
+            <div class="personaje">
+                <img src="img/sazed.jpg" alt="Sazed">
+                <h3 class="subtitulo">Sazed</h3>
+                <p>Un feruquimista erudito y pacífico que sirve como mentor y consejero. Su conocimiento sobre
+                    religiones, historia y cultura es fundamental para los protagonistas.</p>
+            </div>
+
+            <div class="personaje">
+                <img src="img/lord.jpg" alt="Lord Legislador">
+                <h3 class="subtitulo">Lord Legislador</h3>
+                <p>El gobernante inmortal que ha mantenido el control absoluto del Imperio durante mil años. Temido como
+                    un dios por la población, su poder es tan misterioso como peligroso.</p>
+            </div>
+
+            <div class="personaje">
+                <img src="img/elend.jpg" alt="Elend Venture">
+                <h3 class="subtitulo">Elend Venture</h3>
+                <p>Joven noble idealista que desafía las costumbres de su clase. Su encuentro con Vin cambiará no solo
+                    su vida, sino el rumbo de todo el Imperio.</p>
+            </div>
         </div>
     </main>
+
     <footer>
         <p>
-            Más información sobre el Cosmere en 
-            <a href="https://cosmere.es" target="_blank">
-                cosmere.es
-            </a>
+            Más información sobre el Cosmere en
+            <a href="https://cosmere.es" target="_blank">cosmere.es</a>
         </p>
     </footer>
 </body>
-</html>
 
+</html>
