@@ -1,5 +1,5 @@
-
-html, body {
+html,
+body {
   height: 100%;
   margin: 0;
 }
@@ -70,4 +70,41 @@ footer {
 
 footer a {
   color: #d4af37;
+}
+
+@media (max-width: 480px) {
+  .navbar li a {
+    font-size: 0.9rem;
+    display: flex;
+    justify-content: center;
+  }
+
+  .navbar {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .titulo {
+    font-size: 1.75rem;
+    margin: 1rem 0;
+  }
+
+  p {
+    font-size: 0.9rem;
+    padding: 0 0.5rem;
+  }
+
+  main {
+    padding: 0.75rem;
+  }
+
+  .hero-image img {
+    max-width: 8rem;
+    margin: 1rem auto;
+  }
+
+  footer {
+    padding: 0.5rem;
+    font-size: 0.9rem;
+  }
 }
